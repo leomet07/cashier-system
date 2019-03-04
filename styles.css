@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Heebo:900');
+
+
+
+
+body{
+  background-color: #CCCC99;
+}
+.button {
+
+  background-color: #4CAF50;
+  font-size: 24px;
+
+  float: left;
+  border: 1px solid green;
+
+}
+
+.button:hover{
+  background-color: #ffc600;
+
+}
+
+p{
+
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
+
+
+/*
+table{
+
+  overflow:scroll;
+  background-color: white;
+  width: 100%;
+  border-collapse: collapse;
+}
+table, th, td {
+  border: 1px solid black;
+  font-family: 'Roboto', sans-serif;
+}
+
+tr:hover{
+  background-color: #f5f5f5;
+}
+tr:nth-child(even){background-color: #f2f2f2}
+th{
+  background-color: green;
+  color:white;
+}
+*/
+
+
+#table {
+  font-family: 'Roboto', sans-serif;
+  overflow:scroll;
+  background-color: white;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#table td, #table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#table tr:nth-child(even) {
+  background-color: #f2f2f2
+}
+
+#table tr:hover {
+  background-color: #ddd;
+}
+
+#table th {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input[type=text]{
+  width : 150px;
+  height: 70px;
+}
